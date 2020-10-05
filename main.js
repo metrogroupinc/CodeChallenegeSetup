@@ -30,6 +30,7 @@ function payButton() {
                 image = data;
                 var img = document.createElement('img');
                 img.src = image[0].url
+                img.width=320
                 document.getElementsByClassName('imageContainer')[0].appendChild(img);
             })
     }
