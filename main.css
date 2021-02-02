@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+
+.payUp{
+    margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+img{
+    width : 150px;
+    height: 90px;
+    padding : 10px;
+}
+
+.imageContainer{
+    padding-top: 100px;
+}
