@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Tax Calculator</title>
     <!-- TODO: Import Bootstrap CSS from CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- TODO: Create main.css and link it  -->
+    <link rel = "stylesheet" href = "main.css">
+
 </head>
 
 <body>
@@ -16,17 +19,30 @@
             your tax.</p>
         <!-- TODO: Call calcButtonClick function when this button is clicked -->
         <!-- TODO: Style this button as a primary button with bootstrap -->
-        <button>Calculate My Cat Tax</button>
-        <p id='amountOwed'></p>
+
+        <button type = "button" class = "calculate btn-primary">Calculate My Cat Tax</button>
+        
+        <p id='amountOwed'>
+
+        </p>
+        
         <!-- TODO: Add button that lets you pay your cat tax -->
         <!-- TODO: Call payButton function when this button is clicked -->
         <!-- TODO: Style this button as a success button with bootstrap -->
+
         <!-- TODO: This button should not show unless a tax amount has been calculated -->
-        <button class="payBtn"></button>
+        <div class = "payUp">
+            <button type = "button" class="payBtn btn-success">Pay Debt</button>
+        </div>
         <div class="imageContainer"></div>
     </div>
+    <script src = "main.js"></script>
 </body>
 <!-- TODO: Import Bootstrap JS and jQuery CSS via CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 <!-- TODO: Import main.js file -->
 
 </html>
