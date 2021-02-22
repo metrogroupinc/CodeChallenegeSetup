@@ -7,6 +7,7 @@
     <title>Cat Tax Calculator</title>
     <!-- TODO: Import Bootstrap CSS from CDN -->
     <!-- TODO: Create main.css and link it  -->
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -16,15 +17,24 @@
             your tax.</p>
         <!-- TODO: Call calcButtonClick function when this button is clicked -->
         <!-- TODO: Style this button as a primary button with bootstrap -->
-        <button>Calculate My Cat Tax</button>
+        <button onclick="calcButtonClick()" class="btn btn-primary">Calculate My Cat Tax</button>
         <p id='amountOwed'></p>
         <!-- TODO: Add button that lets you pay your cat tax -->
         <!-- TODO: Call payButton function when this button is clicked -->
         <!-- TODO: Style this button as a success button with bootstrap -->
         <!-- TODO: This button should not show unless a tax amount has been calculated -->
-        <button class="payBtn"></button>
-        <div class="imageContainer"></div>
+        <button class="btn btn-success" id = "payBtn" onclick="payButton()">Pay tax</button>
+        <div class="" id="imageContainer"></div>
     </div>
+    
+    <script type="text/javascript" src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
 </body>
 <!-- TODO: Import Bootstrap JS and jQuery CSS via CDN -->
 <!-- TODO: Import main.js file -->
