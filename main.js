@@ -73,7 +73,6 @@ function payButton() {
                 image.setAttribute("width", "125x");
                 imageContainer.prepend("       ", image);
                 console.log(JSON.parse(result)[0].url);
-                console.log(typeof (result));
             }).catch(error => { console.error('Error:', error); });
     }
     else {
