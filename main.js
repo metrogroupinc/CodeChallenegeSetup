@@ -77,7 +77,7 @@ function payButton() {
     }
     else {
         let imageContainer = document.getElementsByClassName("imageContainer")[0];
-        imageContainer.innerHTML = "<iframe src='https://gfycat.com/ifr/SnivelingBeautifulJoey' frameborder='0' scrolling='no' allowfullscreen width='640' height='846'></iframe>";
+        imageContainer.innerHTML = "<video src='https://thumbs.gfycat.com/SnivelingBeautifulJoey-mobile.mp4' autoplay loop></video>";
     }
 }
 
