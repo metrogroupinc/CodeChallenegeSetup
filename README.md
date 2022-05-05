@@ -35,4 +35,4 @@ In order to complete the project, submit a pull requests.
 
 ## Time Constraints
 
-This project should be completed live and within a one hour time limit.  
+This project should be recorded and completed within a one hour time limit.  
