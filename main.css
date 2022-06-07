@@ -1,0 +1,22 @@
+body, html {
+    text-align: center;
+    height: 100%;
+}
+
+.payBtn {
+    display: none;
+}
+
+.imageContainer {
+    text-align: left;
+}
+
+.catImage {
+    margin: 1em;
+}
+
+.catGif {
+    position: relative;
+    height: 100%;
+    width: auto;
+}
